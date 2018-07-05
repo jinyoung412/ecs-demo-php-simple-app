@@ -4,16 +4,16 @@ if(isset($_POST['submit'])){
     
    // echo json_encode($_POST,JSON_PRETTY_PRINT);
  //   die();
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com:3306";
+$username = "phpMyAdmin";
+$password = "phpmyadmin";
 $dbname = "deliveryorder";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    header("location:registration.php?success=false");
+    header("location:index.php?success=false");
 
 die("Connection failed: " . $conn->connect_error);
 }
@@ -66,5 +66,5 @@ $conn->close();*/
 }
 echo ob_get_clean();
 
-header("location:registration.php?success=true");
+header("location:index.php?success=true");
 ?>
