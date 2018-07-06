@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
    // echo json_encode($_POST,JSON_PRETTY_PRINT);
  //   die();
 $servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com:3306";
-$username = "phpMyAdmin";
+$username = "phpmyadmin";
 $password = "phpmyadmin";
 $dbname = "deliveryorder";
 
