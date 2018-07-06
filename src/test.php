@@ -50,8 +50,8 @@ $conn->close();*/
 
 
 
-    $sql = "INSERT INTO registration (name,address,city,state,zip,country,phonenum,participate,item,itemlist)
-    VALUES ('$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
+    $sql = "INSERT INTO registration (cust_id, date, name,address,city,state,zip,country,phonenum,participate,item,itemlist)
+    VALUES (uniqid(rand()). uniqid(), date('Y/m/d'),'$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
 
 
     if ($conn->query($sql) === TRUE) {
