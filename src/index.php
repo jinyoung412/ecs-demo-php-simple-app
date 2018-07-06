@@ -104,6 +104,8 @@
 <h2>Be sure to click "Ship to this address" when done.</h2>
 <hr/>
 <form action="test.php" method="post" class="form-group">
+<!--<input type="hidden" id="actualDate" name="actualDate"/>
+<input type="hidden" id="custId" name="custId">-->
 <label>Full Name:</label> <br/>
 <input type="text" name="stu_name" id="name" size="45" required="required" placeholder="Please Enter Name"/><br /><br />
 <label>Address line 1:</label> <br/>
