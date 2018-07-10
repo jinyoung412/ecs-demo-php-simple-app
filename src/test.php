@@ -4,8 +4,8 @@ if(isset($_POST['submit'])){
     
    // echo json_encode($_POST,JSON_PRETTY_PRINT);
  //   die();
-//$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com:3306";
-$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com";
+$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com:3306";
+//$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com";
 $username = "phpmyadmin";
 $password = "phpmyadmin";
 $dbname = "deliveryorder";
