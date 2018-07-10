@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
 }
     
-echo "Connected Successfully";
+//echo "Connected Successfully";
 
 /*$sql = "INSERT INTO order (full_name, address1, city)
 VALUES (?,?,?,?,?,?,?)";
@@ -63,7 +63,7 @@ $conn->close();*/
     echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
     }
     
-    /*header("Location:index.html?signup=success");*/    
+    header("Location:index.html?signup=success");   
     
     $conn->close();
 }
@@ -73,6 +73,6 @@ else
 }
 echo ob_get_clean();
 
-//~ header("location:index.php?success=true");
-echo "finished script";
+ header("location:index.php?success=true");
+//echo "finished script";
 ?>
