@@ -67,9 +67,10 @@ $conn->close();*/
 }
 else
 {
-    header("location:index.php?success=false");
+   //~ header("location:index.php?success=false");
 }
 //~echo ob_get_clean();
 
-header("location:index.php?success=true");
+//~ header("location:index.php?success=true");
+echo "finished script";
 ?>
