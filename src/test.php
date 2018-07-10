@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
  //   die();
 //$servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com:3306";
 $servername = "phpmyadmin.cil7wtskg5jd.us-east-1.rds.amazonaws.com";
-$username = "phpmyadmin";
+$username = "phpMyAdmin";
 $password = "phpmyadmin";
 $dbname = "deliveryorder";
 
