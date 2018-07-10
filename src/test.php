@@ -1,5 +1,5 @@
 <?php
-ob_start();
+//~ob_start();
 if(isset($_POST['submit'])){
     
    // echo json_encode($_POST,JSON_PRETTY_PRINT);
@@ -65,7 +65,11 @@ $conn->close();*/
     
     $conn->close();
 }
-echo ob_get_clean();
+else
+{
+    header("location:index.php?success=false");
+}
+//~echo ob_get_clean();
 
 header("location:index.php?success=true");
 ?>
