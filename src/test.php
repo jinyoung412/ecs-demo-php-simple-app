@@ -14,7 +14,8 @@ $dbname = "deliveryorder";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    header("location:index.php?success=false");
+    echo "database connection failed";
+    //~ header("location:index.php?success=false");
 
 die("Connection failed: " . $conn->connect_error);
 }
@@ -54,6 +55,7 @@ $conn->close();*/
     $sql = "INSERT INTO registration (cust_id, date, name,address,city,state,zip,country,phonenum,participate,item,itemlist)
     VALUES (uniqid(rand()). uniqid(), date('Y/m/d'),'$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
 
+        echo $sql;
 
     if ($conn->query($sql) === TRUE) {
     echo "<script type= 'text/javascript'>alert('New record created successfully');</script>";
