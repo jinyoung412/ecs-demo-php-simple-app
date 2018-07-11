@@ -22,11 +22,11 @@
 
 <html>
 <head>
-<!--<div class="carousel-inner" role="listbox">
+<div class="carousel-inner" role="listbox">
     <div class="item active">
         <img src="img/header2.png" alt="Hero Slide">
     </div>
-    </div>-->
+    </div>
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
                     <!-- Indicators -->
                     <!--<ol class="carousel-indicators">
