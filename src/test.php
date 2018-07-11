@@ -1,5 +1,5 @@
 <?php
-//~ ob_start();
+ob_start();
 if(isset($_POST['submit'])){
     
    // echo json_encode($_POST,JSON_PRETTY_PRINT);
@@ -15,7 +15,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     echo "database connection failed";
-    //~header("location:index.php?success=false");
+    header("location:index.php?success=false");
 
 die("Connection failed: " . $conn->connect_error);
 }
@@ -62,26 +62,26 @@ $conn->close();*/
     $sql = "INSERT INTO registration (cust_id, date, name,address,city,state,zip,country,phonenum,participate,item,itemlist)
     VALUES ('$uid', CURDATE(),'$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
 
-        echo $sql;
+     //   echo $sql;
 
     if ($conn->query($sql) === TRUE) {
     echo "<script type= 'text/javascript'>alert('New record created successfully');</script>";
     } else {
-    //~echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
-            die($conn->error);
+    echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
+           // die($conn->error);
 
     }
     
-    //~header("Location:index.html?signup=success");   
+    header("Location:index.html?signup=success");   
     
     $conn->close();
 }
 else
 {
-  //~  header("location:index.php?success=false");
+    header("location:index.php?success=false");
 }
-//~echo ob_get_clean();
+echo ob_get_clean();
 
- //~header("location:index.php?success=true");
+ header("location:index.php?success=true");
 //echo "finished script";
 ?>
