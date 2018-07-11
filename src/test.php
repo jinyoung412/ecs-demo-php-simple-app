@@ -56,9 +56,11 @@ $conn->close();*/
     $itemlist = $_POST['itemlist'];
 
 
+    $uid=uniqid(rand()).uniqid();
+    
 
     $sql = "INSERT INTO registration (cust_id, date, name,address,city,state,zip,country,phonenum,participate,item,itemlist)
-    VALUES (uniqid(rand()). uniqid(), date('Y/m/d'),'$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
+    VALUES ('$uid', CURDATE(),'$name', '$address', '$city','$state', '$zip', '$country', '$phonenum','$participate','$item','$itemlist')";
 
         echo $sql;
 
