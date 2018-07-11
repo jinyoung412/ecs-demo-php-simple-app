@@ -20,46 +20,46 @@
     }
 ?>
 
-<html>
+<!--<html>
 <head>
 <!--<div class="carousel-inner" role="listbox">
     <div class="item active">
         <img src="img/header2.png" alt="Hero Slide">
     </div>
     </div>-->
-<div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
+<!--<div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators">
+                    <!--<ol class="carousel-indicators">
                         <li data-target="#x-corp-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#x-corp-carousel" data-slide-to="1"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
+                    <!--<div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="img/primebox-slider.jpg" alt="Hero Slide">
                             <!--Slide Image-->
 
-                            <div class="container">
+                           <!-- <div class="container">
                                 <div class="carousel-caption">
                                     <!--<small class="animated fadeIn">CALL US TODAY</small>
                                     <div class="phone animated lightSpeedIn">1-800-1234-567</div>-->
-                                    <h1 class="animated lightSpeedIn">Project Mejor <br> <font size="6">A Better Way to Give to Charity</font></h1>
+                                    <!--<h1 class="animated lightSpeedIn">Project Mejor <br> <font size="6">A Better Way to Give to Charity</font></h1>
 
                                     <p class="lead animated lightSpeedIn">Reuse Amazon shipping boxes and 
                                         give back to the <br>community by donating goods to local charity </p>
                                 </div>
                                 <!--.carousel-caption-->
-                            </div>
+                           <!-- </div>
                             <!--.container-->
-                        </div>
+                     <!--   </div>
                         <!--.item-->
 
-                        <div class="item">
+                      <!--  <div class="item">
                             <img src="img/give_slider.jpg" alt="Hero Slide">
                             <!--Slide Image-->
 
-                            <div class="container">
+                          <!--  <div class="container">
                                 <div class="carousel-caption">
 
                                     <h1 class="animated bounceIn">Project Mejor <br> <font size="6">A Better Way to Give to Charity</font></h1>
@@ -67,16 +67,16 @@
                                     <p class="lead animated bounceIn">Simple way to give back with free delivery </p>
                                 </div>
                                 <!--.carousel-caption-->
-                            </div>
+                          <!--  </div>
                             <!--.container-->
-                        </div>
+                      <!--  </div>
                         <!--.item-->
 
-                    </div>
+                 <!--   </div>
                     <!--.carousel-inner-->
 
                     <!-- Controls -->
-                    <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
+                 <!--   <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
                         <i class="fa fa-angle-left" aria-hidden="true"></i>
                         <span class="sr-only">Previous</span>
                     </a>
