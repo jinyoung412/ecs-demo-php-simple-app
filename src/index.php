@@ -4,14 +4,14 @@
         echo "
         <script>
             alert('added entry to db');
-            window.location='index.php';
+            window.location='registration.php';
         </script>";
     }
     elseif(isset($_GET['success'])&& $_GET['success']==false)
     {
         echo "<script>
             alert('could not add entry to db.');
-            window.location='index.php';
+            window.location='registration.php';
         </script>";
     }
     else
@@ -44,7 +44,7 @@
                                 <div class="carousel-caption">
                                     <!--<small class="animated fadeIn">CALL US TODAY</small>
                                     <div class="phone animated lightSpeedIn">1-800-1234-567</div>-->
-                                    <!--<h1 class="animated lightSpeedIn">Project Mejor <br> <font size="6">A Better Way to Give to Charity</font></h1>
+                                    <h1 class="animated lightSpeedIn">Project Mejor <br> <font size="6">A Better Way to Give to Charity</font></h1>
 
                                     <p class="lead animated lightSpeedIn">Reuse Amazon shipping boxes and 
                                         give back to the <br>community by donating goods to local charity </p>
@@ -72,7 +72,7 @@
                         </div>
                         <!--.item-->
 
-                   </div>
+                    </div>
                     <!--.carousel-inner-->
 
                     <!-- Controls -->
@@ -92,9 +92,7 @@
 <!--<link rel="stylesheet" type="text/css" href="style.css">-->
     
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="assets/css/style.css" rel="stylesheet">
-  <!--<a rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></a>
-  <a href="assets/css/style.css" rel="stylesheet"></a>-->
+  <link href="css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -103,11 +101,9 @@
 <div class="container" id="main">
 <h1>Add a new address</h1>
 <div id="login">
-<h2>Be sure to click "Ship to this address" when done.</h2>
+<h2>Be sure to click "Submit" when done.</h2>
 <hr/>
 <form action="test.php" method="post" class="form-group">
-<!--<input type="hidden" id="actualDate" name="actualDate"/>
-<input type="hidden" id="custId" name="custId">-->
 <label>Full Name:</label> <br/>
 <input type="text" name="stu_name" id="name" size="45" required="required" placeholder="Please Enter Name"/><br /><br />
 <label>Address line 1:</label> <br/>
@@ -378,3 +374,6 @@
 </div>
 
 </div>
+
+</body>
+</html>
