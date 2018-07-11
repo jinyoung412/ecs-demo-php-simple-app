@@ -4,14 +4,14 @@
         echo "
         <script>
             alert('added entry to db');
-            window.location='registration.php';
+            window.location='index.php';
         </script>";
     }
     elseif(isset($_GET['success'])&& $_GET['success']==false)
     {
         echo "<script>
             alert('could not add entry to db.');
-            window.location='registration.php';
+            window.location='index.php';
         </script>";
     }
     else
