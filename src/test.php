@@ -19,6 +19,11 @@ if ($conn->connect_error) {
 
 die("Connection failed: " . $conn->connect_error);
 }
+
+$ref = $_SERVER['HTTP_REFERER'];
+if (strpos($ref, 'http://ecs-c-loadb-8bsjvz7ml7i3-1498978733.us-east-1.elb.amazonaws.com/index.php') !== FALSE) {
+   redirect to wherever ecs-c-loadb-8bsjvz7ml7i3-1498978733.us-east-1.elb.amazonaws.com/index.php people should go
+}
     
 //echo "Connected Successfully";
 
