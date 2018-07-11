@@ -29,7 +29,7 @@
     </div>-->
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <!--<ol class="carousel-indicators">
+                    <ol class="carousel-indicators">
                         <li data-target="#x-corp-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#x-corp-carousel" data-slide-to="1"></li>
                     </ol>
