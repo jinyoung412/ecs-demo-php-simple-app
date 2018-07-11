@@ -22,11 +22,11 @@
 
 <html>
 <head>
-<div class="carousel-inner" role="listbox">
+<!--<div class="carousel-inner" role="listbox">
     <div class="item active">
         <img src="img/header2.png" alt="Hero Slide">
     </div>
-    </div>
+    </div>-->
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
                     <!-- Indicators -->
                     <!--<ol class="carousel-indicators">
@@ -91,10 +91,10 @@
 <title>Select a Shipping Address</title>
 <!--<link rel="stylesheet" type="text/css" href="style.css">-->
     
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="assets/css/style.css" rel="stylesheet">-->
-  <a rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></a>
-  <a href="assets/css/style.css" rel="stylesheet"></a>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!--<a rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></a>
+  <a href="assets/css/style.css" rel="stylesheet"></a>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
